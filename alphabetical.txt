@@ -173,6 +173,7 @@ Round
 Salad
 Seedy
 Serve
+Shard
 Shire
 Shrub
 Siege
