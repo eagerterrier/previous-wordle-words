@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Previous Wordle Words
 
-You can use the [editor on GitHub](https://github.com/eagerterrier/previous-wordle-words/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Previous Wordle words used since launch but with no spoilers
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Reason for being
 
-### Markdown
+Ever wondered if your starting word has been used before? I've only been playing a month, but realised that I've already forgotten the words I completed and have no idea of what words were selected on days before I started playing.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## No spoliers
 
-```markdown
-Syntax highlighted code block
+I'll update the new word on the day *after* play, so zero spoilers. Tbh, some days I might forget.
 
-# Header 1
-## Header 2
-### Header 3
+## The Words
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eagerterrier/previous-wordle-words/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Chronological](./chronological.txt)
+[Alphabetical](./alphabetical.txt)
