@@ -12,5 +12,6 @@ I'll update the new word on the day *after* play, so zero spoilers. Tbh, some da
 
 ## The Words
 
-[Chronological](./chronological.txt)
-[Alphabetical](./alphabetical.txt)
+[Chronological](https://raw.githubusercontent.com/eagerterrier/previous-wordle-words/main/chronological.txt)
+
+[Alphabetical](https://raw.githubusercontent.com/eagerterrier/previous-wordle-words/main/alphabetical.txt)
