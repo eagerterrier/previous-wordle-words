@@ -59,3 +59,5 @@ const fileData = 'letter,count,days used,longest streak,current streak,most in o
 }, '');
 fs.writeFileSync('./statistics.csv', fileData, "utf8");
 
+fs.writeFileSync('./alphabetical.txt', words.sort().join('\n'), "utf8");
+
