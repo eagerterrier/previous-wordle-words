@@ -15,3 +15,5 @@ I'll update the new word on the day *after* play, so zero spoilers. Tbh, some da
 [Chronological](https://raw.githubusercontent.com/eagerterrier/previous-wordle-words/main/chronological.txt)
 
 [Alphabetical](https://raw.githubusercontent.com/eagerterrier/previous-wordle-words/main/alphabetical.txt)
+
+[Statistics](https://raw.githubusercontent.com/eagerterrier/previous-wordle-words/main/statistics.csv)

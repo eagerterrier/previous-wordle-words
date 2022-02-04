@@ -1,0 +1,25 @@
+{
+  "name": "previous-wordle-words",
+  "version": "1.0.0",
+  "description": "previous wordle words with no spoilers",
+  "main": "stats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagerterrier/previous-wordle-words.git"
+  },
+  "keywords": [
+    "wordle"
+  ],
+  "author": "eagerterrier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eagerterrier/previous-wordle-words/issues"
+  },
+  "homepage": "https://github.com/eagerterrier/previous-wordle-words#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}
