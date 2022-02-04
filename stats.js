@@ -37,7 +37,6 @@ words.forEach((word) => {
         lettersUsedObject[letter].currentStreak++;
         if (lettersUsedObject[letter].currentStreak > lettersUsedObject[letter].longestStreak) {
             lettersUsedObject[letter].longestStreak = lettersUsedObject[letter].currentStreak;
-            console.log(`streak broken for ${letter} with ${word} and now on a total of ${lettersUsedObject[letter].longestStreak}`);
         }
     });
     lettersOfTheAlphabetArray.forEach(letter => {
@@ -55,8 +54,8 @@ words.forEach((word) => {
 });
 
 const letterFrequency = Object.values(lettersUsedObject).sort((a, b) => b.count - a.count);
-const fileData = 'letter,count,longest streak,current streak,most in one word,days since last appearance\n' + letterFrequency.reduce((returnValue, data) => {
-    return returnValue + `${data.letter},${data.count},${data.longestStreak},${data.currentStreak},${data.mostInOneWord},${data.daysSince}\n`;
+const fileData = 'letter,count,days used,longest streak,current streak,most in one word,days since last appearance\n' + letterFrequency.reduce((returnValue, data) => {
+    return returnValue + `${data.letter},${data.count},${data.daysUsed},${data.longestStreak},${data.currentStreak},${data.mostInOneWord},${data.daysSince}\n`;
 }, '');
 fs.writeFileSync('./statistics.csv', fileData, "utf8");
 
