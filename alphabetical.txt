@@ -66,6 +66,7 @@ Drink
 Duchy
 Dutch
 Dwarf
+Elder
 Enema
 Epoch
 Erode
