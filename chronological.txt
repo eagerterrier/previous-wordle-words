@@ -234,3 +234,4 @@ Skill
 Elder
 Frame
 Humor
+Pause
