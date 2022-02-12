@@ -4,6 +4,9 @@ const words = fs.readFileSync('./chronological.txt', 'utf-8').split('\n');
 const lettersOfTheAlphabet = 'abcdefghijklmnopqrstuvwxyz';
 const lettersOfTheAlphabetArray = lettersOfTheAlphabet.split('');
 const lettersUsedObject = {};
+const chronologicalLeaderboard = {
+    0: {}
+};
 
 lettersOfTheAlphabetArray.forEach(letter => {
     lettersUsedObject[letter] = {
@@ -15,22 +18,23 @@ lettersOfTheAlphabetArray.forEach(letter => {
         daysSince: 0,
         mostInOneWord: 0
     }
+    chronologicalLeaderboard[0][letter] = 0;
 });
 
 let todaysLetters = [];
-let previousDaysLetters = [];
-words.forEach((word) => {
+words.forEach((word, i) => {
+    const currentDay = i + 1;
+    chronologicalLeaderboard[currentDay] = { ...chronologicalLeaderboard[i] };
     const letters = word.split('');
     let mostInOneWord = [];
     letters.forEach(letter => {
         const letterLowercase = letter.toLowerCase();
         lettersUsedObject[letterLowercase].count++;
+        chronologicalLeaderboard[currentDay][letterLowercase]++;
         if (todaysLetters.indexOf(letterLowercase) === -1) todaysLetters.push(letterLowercase);
         mostInOneWord[letterLowercase] ? mostInOneWord[letterLowercase]++ : mostInOneWord[letterLowercase] = 1;
         if (mostInOneWord[letterLowercase] > lettersUsedObject[letterLowercase].mostInOneWord) lettersUsedObject[letterLowercase].mostInOneWord = mostInOneWord[letterLowercase];
     });
-    
-    const todayAndYesterday = [...new Set([...todaysLetters, ...previousDaysLetters])];
 
     todaysLetters.forEach(letter => {
         lettersUsedObject[letter].daysUsed++;
@@ -48,7 +52,6 @@ words.forEach((word) => {
             lettersUsedObject[letter].daysSince = 0;
         }
     });
-    previousDaysLetters = todaysLetters;
     mostInOneWord = [];
     todaysLetters = [];
 });
@@ -59,5 +62,13 @@ const fileData = 'letter,count,days used,longest streak,current streak,most in o
 }, '');
 fs.writeFileSync('./statistics.csv', fileData, "utf8");
 
-fs.writeFileSync('./alphabetical.txt', words.sort().join('\n'), "utf8");
+let racingBarChartFileData = `name,,,Day -1,${Array.from({ length: Object.keys(chronologicalLeaderboard).length - 1 }, (v, i) => 'Day ' + i).join(',')}\n`;
 
+lettersOfTheAlphabetArray.forEach(letter => {
+    racingBarChartFileData += `${letter},,,` + Object.keys(chronologicalLeaderboard).reduce((returnValue, data) => {
+        return returnValue + `${chronologicalLeaderboard[data][letter]},`
+    }, '') + '\n';
+});
+fs.writeFileSync('./racingchart.csv', racingBarChartFileData, "utf8");
+
+fs.writeFileSync('./alphabetical.txt', words.sort().join('\n'), "utf8");
