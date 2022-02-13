@@ -67,7 +67,7 @@ let racingBarChartFileData = `name,,,Day -1,${Array.from({ length: Object.keys(c
 lettersOfTheAlphabetArray.forEach(letter => {
     racingBarChartFileData += `${letter},,,` + Object.keys(chronologicalLeaderboard).reduce((returnValue, data) => {
         return returnValue + `${chronologicalLeaderboard[data][letter]},`
-    }, '') + '\n';
+    }, '').slice(0, -1) + '\n';
 });
 fs.writeFileSync('./racingchart.csv', racingBarChartFileData, "utf8");
 
