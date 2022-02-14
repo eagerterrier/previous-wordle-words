@@ -238,3 +238,4 @@ Pause
 Ulcer
 Ultra
 Robin
+Cynic
