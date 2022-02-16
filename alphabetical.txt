@@ -12,6 +12,7 @@ Aloft
 Alone
 Altar
 Argue
+Aroma
 Aside
 Audit
 Awake
