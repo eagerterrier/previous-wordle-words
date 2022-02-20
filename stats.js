@@ -18,6 +18,9 @@ lettersOfTheAlphabetArray.forEach(letter => {
         daysSince: 0,
         mostInOneWord: 0,
         asFirstLetter: 0,
+        asSecondLetter: 0,
+        asThirdLetter: 0,
+        asFourthLetter: 0,
         asLastLetter: 0
     }
     chronologicalLeaderboard[0][letter] = 0;
@@ -33,6 +36,9 @@ words.forEach((word, i) => {
         const letterLowercase = letter.toLowerCase();
         lettersUsedObject[letterLowercase].count++;
         if (il === 0) lettersUsedObject[letterLowercase].asFirstLetter++;
+        if (il === 1) lettersUsedObject[letterLowercase].asSecondLetter++;
+        if (il === 2) lettersUsedObject[letterLowercase].asThirdLetter++;
+        if (il === 3) lettersUsedObject[letterLowercase].asFourthLetter++;
         if (il === 4) lettersUsedObject[letterLowercase].asLastLetter++;
         chronologicalLeaderboard[currentDay][letterLowercase]++;
         if (todaysLetters.indexOf(letterLowercase) === -1) todaysLetters.push(letterLowercase);
@@ -61,8 +67,8 @@ words.forEach((word, i) => {
 });
 
 const letterFrequency = Object.values(lettersUsedObject).sort((a, b) => b.count - a.count);
-const fileData = 'letter,count,days used,longest streak,current streak,most in one word,days since last appearance,times as first letter,times as last letter\n' + letterFrequency.reduce((returnValue, data) => {
-    return returnValue + `${data.letter},${data.count},${data.daysUsed},${data.longestStreak},${data.currentStreak},${data.mostInOneWord},${data.daysSince},${data.asFirstLetter},${data.asLastLetter}\n`;
+const fileData = 'letter,count,days used,longest streak,current streak,most in one word,days since last appearance,times as first letter,times as second letter,times as third letter,times as fourth letter,times as last letter\n' + letterFrequency.reduce((returnValue, data) => {
+    return returnValue + `${data.letter},${data.count},${data.daysUsed},${data.longestStreak},${data.currentStreak},${data.mostInOneWord},${data.daysSince},${data.asFirstLetter},${data.asSecondLetter},${data.asThirdLetter},${data.asFourthLetter},${data.asLastLetter}\n`;
 }, '');
 fs.writeFileSync('./statistics.csv', fileData, "utf8");
 
