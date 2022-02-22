@@ -12,10 +12,12 @@ I'll update the new word on the day *after* play, so zero spoilers. Tbh, some da
 
 ## The Words
 
-[Chronological](https://raw.githubusercontent.com/eagerterrier/previous-wordle-words/main/chronological.txt)
+[Chronological](./chronological.txt)
 
-[Alphabetical](https://raw.githubusercontent.com/eagerterrier/previous-wordle-words/main/alphabetical.txt)
+[Alphabetical](./alphabetical.txt)
 
-[Statistics](https://raw.githubusercontent.com/eagerterrier/previous-wordle-words/main/statistics.csv)
+[Statistics](./statistics.csv)
 
 [Racing Bar Chart](./barchart.html)
+
+[Transfer Wordle Score Tool](./transfer.html)
