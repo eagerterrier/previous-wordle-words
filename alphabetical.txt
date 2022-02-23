@@ -227,6 +227,7 @@ Trace
 Trawl
 Triad
 Troll
+Trove
 Truss
 Tweed
 Ulcer
