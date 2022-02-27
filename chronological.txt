@@ -252,3 +252,4 @@ Trove
 Bloke
 Vivid
 Spill
+Chant
