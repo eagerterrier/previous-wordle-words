@@ -42,6 +42,7 @@ Champ
 Chant
 Cheat
 Chill
+Choke
 Cigar
 Civic
 Click
