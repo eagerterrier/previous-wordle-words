@@ -254,3 +254,4 @@ Vivid
 Spill
 Chant
 Choke
+Rupee

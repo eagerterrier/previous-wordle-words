@@ -185,6 +185,7 @@ Robot
 Rogue
 Rouge
 Round
+Rupee
 Salad
 Seedy
 Serve
