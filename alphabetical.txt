@@ -48,6 +48,7 @@ Cigar
 Civic
 Click
 Clock
+Cloth
 Cluck
 Coast
 Colon
