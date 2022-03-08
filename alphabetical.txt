@@ -222,6 +222,7 @@ Store
 Stout
 Sugar
 Surer
+Sweet
 Swill
 Swirl
 Tacit
