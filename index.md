@@ -16,7 +16,7 @@ I'll update the new word on the day *after* play, so zero spoilers. Tbh, some da
 
 [Alphabetical](./alphabetical.txt)
 
-[Statistics](./statistics.csv)
+[Statistics](https://github.com/eagerterrier/previous-wordle-words/blob/main/statistics.csv)
 
 [Racing Bar Chart](./barchart.html)
 
