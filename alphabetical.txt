@@ -206,6 +206,7 @@ Sissy
 Skill
 Slump
 Smart
+Smelt
 Solar
 Solve
 Sonic
