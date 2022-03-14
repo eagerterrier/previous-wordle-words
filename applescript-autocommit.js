@@ -14,6 +14,9 @@ if (allWords.includes(wordleWord)) {
     console.warn('We already have this word');
 }
 else {
+    exec('git push origin', (err, stdout, stderr) => {
+        // hope for the best here...
+    }); 
     console.log('About to enter the word ', wordleWord);
     allWords.push(wordleWord);
     fs.writeFileSync('./chronological.txt', allWords.join('\n'), "utf8");
