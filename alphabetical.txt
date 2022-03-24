@@ -44,6 +44,7 @@ Caulk
 Champ
 Chant
 Cheat
+Chest
 Chill
 Choke
 Cigar
