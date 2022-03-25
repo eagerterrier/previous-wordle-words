@@ -70,6 +70,7 @@ Crust
 Cynic
 Death
 Delta
+Depot
 Digit
 Dodge
 Dowry
