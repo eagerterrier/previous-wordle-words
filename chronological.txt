@@ -279,3 +279,4 @@ Purge
 Chest
 Depot
 Epoxy
+Nymph
