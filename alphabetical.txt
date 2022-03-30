@@ -237,6 +237,7 @@ Stink
 Stool
 Store
 Stout
+Stove
 Sugar
 Surer
 Sweet
