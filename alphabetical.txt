@@ -221,6 +221,7 @@ Slosh
 Slump
 Smart
 Smelt
+Snout
 Solar
 Solve
 Sonic
