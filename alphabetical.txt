@@ -92,6 +92,7 @@ Exult
 Favor
 Feign
 Ferry
+Fewer
 Finer
 First
 Fixer
