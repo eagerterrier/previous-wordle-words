@@ -213,6 +213,7 @@ Serve
 Shake
 Shall
 Shard
+Shawl
 Shire
 Shrub
 Siege
