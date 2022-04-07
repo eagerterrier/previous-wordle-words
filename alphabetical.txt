@@ -105,6 +105,7 @@ Floss
 Flume
 Focal
 Focus
+Foray
 Forge
 Forth
 Found
