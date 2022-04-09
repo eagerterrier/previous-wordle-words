@@ -292,3 +292,4 @@ Natal
 Comma
 Foray
 Scare
+Stair

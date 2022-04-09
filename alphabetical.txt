@@ -238,6 +238,7 @@ Spike
 Spill
 Spray
 Staff
+Stair
 Stand
 Start
 Steed
