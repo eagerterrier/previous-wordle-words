@@ -211,6 +211,7 @@ Round
 Rupee
 Salad
 Saute
+Scare
 Seedy
 Serve
 Shake
