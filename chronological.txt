@@ -293,3 +293,5 @@ Comma
 Foray
 Scare
 Stair
+Black
+Squad

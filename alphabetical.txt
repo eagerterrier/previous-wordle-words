@@ -26,6 +26,7 @@ Belch
 Belly
 Bench
 Biome
+Black
 Bleed
 Bloke
 Blurt
@@ -237,6 +238,7 @@ Spicy
 Spike
 Spill
 Spray
+Squad
 Staff
 Stair
 Stand
