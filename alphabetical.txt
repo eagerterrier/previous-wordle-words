@@ -209,6 +209,7 @@ Robot
 Rogue
 Rouge
 Round
+Royal
 Rupee
 Salad
 Saute
