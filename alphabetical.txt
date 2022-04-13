@@ -48,6 +48,7 @@ Cheat
 Chest
 Chill
 Choke
+Chunk
 Cigar
 Civic
 Click
