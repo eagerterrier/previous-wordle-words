@@ -102,6 +102,7 @@
       });
       
      const maxDays = Object.keys(data[0]).length - 8;
+     tickDuration = 25000 / maxDays;
 
      let yearSlice = data.sort((a,b) => b[`Day ${day}`] - a[`Day ${day}`])
       .slice(0, top_n);
