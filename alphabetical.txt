@@ -283,6 +283,7 @@ Tilde
 Today
 Totem
 Trace
+Trash
 Trawl
 Triad
 Troll
