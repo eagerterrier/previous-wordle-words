@@ -265,6 +265,7 @@ Steed
 Stink
 Stool
 Store
+Story
 Stout
 Stove
 Sugar
