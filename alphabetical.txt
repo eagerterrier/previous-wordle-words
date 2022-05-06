@@ -19,6 +19,7 @@ Aside
 Askew
 Audit
 Awake
+Badge
 Badly
 Banal
 Basic
