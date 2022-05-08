@@ -43,6 +43,7 @@ Briar
 Bribe
 Brine
 Bring
+Canny
 Cargo
 Cater
 Caulk
