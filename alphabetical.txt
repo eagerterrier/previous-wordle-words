@@ -99,6 +99,7 @@ Error
 Essay
 Evade
 Exult
+Farce
 Favor
 Feign
 Ferry
