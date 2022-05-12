@@ -252,6 +252,7 @@ Sissy
 Skill
 Slosh
 Slump
+Slung
 Smart
 Smelt
 Snout

@@ -325,3 +325,4 @@ Canny
 Fetus
 Butch
 Farce
+Slung
