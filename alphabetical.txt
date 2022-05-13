@@ -292,6 +292,7 @@ Those
 Thumb
 Tiger
 Tilde
+Tipsy
 Today
 Totem
 Trace
