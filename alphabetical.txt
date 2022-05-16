@@ -80,6 +80,7 @@ Crust
 Cynic
 Death
 Delta
+Delve
 Depot
 Digit
 Dodge
