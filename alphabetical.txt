@@ -25,6 +25,7 @@ Banal
 Basic
 Baton
 Batty
+Being
 Belch
 Belly
 Bench
