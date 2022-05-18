@@ -240,6 +240,7 @@ Rupee
 Salad
 Saute
 Scare
+Scour
 Seedy
 Serve
 Shake
