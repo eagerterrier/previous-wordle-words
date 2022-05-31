@@ -332,3 +332,4 @@ Yield
 Delve
 Being
 Scour
+Manor
