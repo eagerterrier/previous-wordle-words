@@ -8,6 +8,7 @@ Adobe
 Agate
 Agora
 Agree
+Album
 Allow
 Aloft
 Alone
@@ -17,6 +18,8 @@ Argue
 Aroma
 Aside
 Askew
+Asset
+Atoll
 Audit
 Awake
 Badge
@@ -25,6 +28,7 @@ Banal
 Basic
 Baton
 Batty
+Bayou
 Being
 Belch
 Belly
@@ -75,6 +79,7 @@ Crass
 Crate
 Craze
 Crazy
+Crept
 Crimp
 Croak
 Crust
@@ -128,8 +133,10 @@ Foyer
 Frame
 Fresh
 Front
+Gamer
 Gamma
 Gaudy
+Glass
 Golem
 Goner
 Gorge
@@ -149,6 +156,7 @@ Heath
 Heist
 Helix
 Heron
+Hinge
 Hoard
 Homer
 Humor
@@ -172,7 +180,6 @@ Lowly
 Lusty
 Lying
 Major
-Manor
 Marry
 Masse
 Maxim
@@ -182,6 +189,7 @@ Mimic
 Mince
 Model
 Moist
+Money
 Month
 Motor
 Moult
@@ -242,6 +250,7 @@ Salad
 Saute
 Scare
 Scour
+Scrap
 Seedy
 Serve
 Shake
@@ -295,6 +304,7 @@ Their
 Thorn
 Those
 Thumb
+Tiara
 Tiger
 Tilde
 Tipsy
@@ -321,6 +331,7 @@ Viral
 Vital
 Vivid
 Vodka
+Vouch
 Watch
 Weary
 Whack
