@@ -89,6 +89,7 @@ Death
 Delta
 Delve
 Depot
+Depth
 Digit
 Dodge
 Dowry
