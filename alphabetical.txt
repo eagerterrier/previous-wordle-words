@@ -148,6 +148,7 @@ Gamma
 Gaudy
 Girth
 Glass
+Gloat
 Gloom
 Golem
 Goner
