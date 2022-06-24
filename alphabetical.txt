@@ -24,6 +24,7 @@ Atoll
 Atone
 Audit
 Awake
+Awful
 Badge
 Badly
 Banal
@@ -192,6 +193,7 @@ Larva
 Light
 Linen
 Loopy
+Loser
 Lowly
 Lusty
 Lying
@@ -334,6 +336,7 @@ Today
 Totem
 Trace
 Train
+Trait
 Trash
 Trawl
 Triad

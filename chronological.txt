@@ -352,6 +352,7 @@ Froth
 Depth
 Gloom
 Flood
+Trait
 Girth
 Piety
 Goose
@@ -362,7 +363,9 @@ Primo
 Apron
 Blown
 Cacao
+Loser
 Input
 Gloat
+Awful
 Brink
 Smite
