@@ -290,6 +290,7 @@ Slump
 Slung
 Smart
 Smelt
+Smite
 Snout
 Solar
 Solve

@@ -365,3 +365,4 @@ Cacao
 Input
 Gloat
 Brink
+Smite
