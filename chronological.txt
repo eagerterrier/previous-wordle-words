@@ -369,3 +369,4 @@ Gloat
 Awful
 Brink
 Smite
+Rusty
