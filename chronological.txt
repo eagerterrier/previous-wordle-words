@@ -370,3 +370,4 @@ Awful
 Brink
 Smite
 Rusty
+Gawky
