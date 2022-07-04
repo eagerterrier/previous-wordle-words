@@ -284,6 +284,7 @@ Scour
 Scrap
 Seedy
 Serve
+Sever
 Shake
 Shall
 Shame
