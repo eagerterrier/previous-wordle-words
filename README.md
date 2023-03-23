@@ -10,3 +10,6 @@ Ever wondered if your starting word has been used before? I've only been playing
 
 I'll update the new word on the day *after* play, so zero spoilers. Tbh, some days I might forget.
 
+## More stats and that
+
+Go here to see all kinds of marvellous including a racing bar chart of letter frequency - https://eagerterrier.github.io/previous-wordle-words/
